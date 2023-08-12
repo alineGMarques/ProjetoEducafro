@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+:root {
+    --corPrincipal: #AED8CC;
+    --corSecundaria: #CD6688;
+    --corTerciaria: #461959;
+    --corQuartenaria: #000000;
+
+}
+
+/*inicio do meu header*/
+header {
+    background-color: var(--corSecundaria);
+    display: flex;
+    justify-content: space-between;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vw;
+    height: 12vh;
+}
+
+header nav {
+    padding-right: 8vw;
+    justify-content: flex-end;
+
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    margin: 20px;
+    color: var(--corQuartenaria);
+    text-decoration: none;
+    width: 6vw;
+    font-weight: 700;
+
+}
+
+a:hover {
+    color: var(--corPrincipal);
+}
+
+.logo {
+    width: 4vw;
+}
+
+/*Final da header */
+
+/* */
+.body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+
+.section-principal {
+    height: 90vh;
+    width: 130vw;
+    background-color: var(--corPrincipal);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+figure {
+    width: 50vw;
+
+}
+
+figure img {
+    justify-content: center;
+    align-items: center;
+}
+
+.imgcentral {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+
+h1 {
+    color: var(--corTerciaria);
+    font-size: 40px;
+}
+
+.h3div {
+    width: 80vw;
+
+}
+
+h3 {
+    position: absolute;
+    margin-left: -70px;
+    color: var(--corTerciaria);
+    font-size: 25px;
+}
+
+.letra {
+    margin-bottom: 20px;
+}

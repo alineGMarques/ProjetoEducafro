@@ -42,10 +42,11 @@ nav {
 }
 
 a {
-    margin: 20px;
+    display: flex;
+    margin: 10px;
     color: var(--corQuartenaria);
     text-decoration: none;
-    width: 6vw;
+    width: 7vw;
     font-weight: 700;
 
 }
@@ -114,4 +115,45 @@ h3 {
 
 .letra {
     margin-bottom: 20px;
+}
+/* inicio header @media*/
+@media(max-width:719px){
+
+    .primeira{
+        display: none;
+    }
+    .menu{
+    flex-direction: column;
+       border: 2px solid blue;
+
+    }
+    .menu-principal{ 
+     font-size:larger;
+  margin-bottom: 5px;
+        display: flex;
+      justify-content: center; 
+      width: 120vw;
+      border-radius: white 2px solid ;
+    }
+    a:hover{
+        color: #AED8CC;
+    }
+    /*Fim header*/
+    /*inico body*/
+    .figure-um{
+        display: none;
+
+    }
+    .imgcentral{
+        display: none;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        border: 2px solid blue;
+        
+  }
+    .Aline{
+        display: none;
+        font-size:xx-large;
+    }
 }
